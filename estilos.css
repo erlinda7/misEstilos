@@ -1,3 +1,36 @@
+header{
+	margin-top:0;
+	background-color: blue;
+	height: 100px;
+	text-align: center; 
+}
+
+nav{
+	background-color: cyan;
+	height: 30px; 
+
+}
+
 h1{
-	color: green;
+	color: red;
+}
+
+
+.contenido{
+	background-color: #489ACF;
+	float:left;
+	width: 384px;
+	height: 400px;
+}
+.cuerpo{
+	background-color: #3AC9DF;
+	float:right;
+	width: 949px;
+	height: 400px;
+}
+
+footer{
+	background-color: #868BBD; 
+	height: 50px;
+
 }
