@@ -1,36 +1,89 @@
-header{
-	margin-top:0;
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
 	background-color: blue;
-	height: 100px;
-	text-align: center; 
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 300px;
+	padding: 35px;
 }
 
-nav{
-	background-color: cyan;
-	height: 30px; 
-
+.descripcion{
+	float: left;
+	padding: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 46px;
 }
 
-h1{
-	color: red;
+.menu{
+	float: left;
+	background: cyan;
+	padding: 10px;
+	width: 100%;
 }
 
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding: 5px 20px;
+}
 
 .contenido{
-	background-color: #489ACF;
-	float:left;
-	width: 384px;
-	height: 400px;
-}
-.cuerpo{
-	background-color: #3AC9DF;
-	float:right;
-	width: 949px;
-	height: 400px;
+	overflow: hidden;
 }
 
-footer{
-	background-color: #868BBD; 
-	height: 50px;
+.izquierda{
+	background-color: cornflowerblue;
+	margin: 0;
+	width: 400px;
+	height: 400px;
+	float: left;
+	padding: 50px;
+}
+
+.izquierda ul{
+	list-style: none;
+}
+
+.izquierda li a{
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	font-size: 25px;
+	
+}
+.derecha{
+	background-color: darkcyan;
+
+	height: 400px;
+	padding: 50px;
+
+}
+
+.texto{
+
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: brown;
+	text-align: justify;
+}
+
+.pie{
+	background: rgb(142, 142, 211);
+	height: 30px;
+	padding: 20px;
+}
+.pie a{
+	text-decoration: none;
+	padding: 100px 150px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: rgb(16, 5, 114);
 
 }
