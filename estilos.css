@@ -1,89 +1,85 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-	background-color: blue;
-	overflow: hidden;
+.header {
+  background-color: blue;
+  overflow: hidden;
 }
-.logo{
-	float: left;
-	width: 300px;
-	padding: 35px;
-}
-
-.descripcion{
-	float: left;
-	padding: 50px;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 46px;
+.logo {
+  float: left;
+  width: 300px;
+  padding: 35px;
 }
 
-.menu{
-	float: left;
-	background: cyan;
-	padding: 10px;
-	width: 100%;
+.descripcion {
+  float: left;
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 46px;
 }
 
-.menu a{
-	text-decoration: none;
-	font-size: 20px;
-	color: black;
-	padding: 5px 20px;
+.menu {
+  float: left;
+  background: cyan;
+  padding: 10px;
+  width: 100%;
 }
 
-.contenido{
-	overflow: hidden;
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 5px 20px;
 }
 
-.izquierda{
-	background-color: cornflowerblue;
-	margin: 0;
-	width: 400px;
-	height: 400px;
-	float: left;
-	padding: 50px;
+.contenido {
+  overflow: hidden;
 }
 
-.izquierda ul{
-	list-style: none;
+.izquierda {
+  background-color: cornflowerblue;
+  margin: 0;
+  width: 400px;
+  height: 400px;
+  float: left;
+  padding: 50px;
 }
 
-.izquierda li a{
-	text-decoration: none;
-	padding: 5px;
-	color: black;
-	font-size: 25px;
-	
-}
-.derecha{
-	background-color: darkcyan;
-
-	height: 400px;
-	padding: 50px;
-
+.izquierda ul {
+  list-style: none;
 }
 
-.texto{
+.izquierda li a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-size: 25px;
+}
+.derecha {
+  background-color: darkcyan;
 
-	font-size: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: brown;
-	text-align: justify;
+  height: 400px;
+  padding: 50px;
 }
 
-.pie{
-	background: rgb(142, 142, 211);
-	height: 30px;
-	padding: 20px;
+.texto {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: brown;
+  text-align: justify;
 }
-.pie a{
-	text-decoration: none;
-	padding: 100px 150px;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 20px;
-	color: rgb(16, 5, 114);
 
+.pie {
+  background: rgb(142, 142, 211);
+  height: 30px;
+  padding: 20px;
+}
+.pie a {
+  text-decoration: none;
+  padding: 100px 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgb(16, 5, 114);
 }
